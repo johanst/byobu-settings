@@ -1,0 +1,9 @@
+unbind-key -n M-Left
+unbind-key -n M-Right
+
+source $BYOBU_PREFIX/share/byobu/keybindings/f-keys.tmux.disable
+bind-key -n S-F12 source $HOME/.byobu/keybindings.tmux
+
+set -g prefix F12
+set -g prefix2 ^Z
+unbind-key -n C-a
