@@ -13,3 +13,4 @@ unbind-key -n C-a
 unbind-key -n F3
 unbind-key -n F4
 unbind-key -n F7
+unbind-key -n F9
